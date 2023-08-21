@@ -1,0 +1,80 @@
+body
+{
+    background-image:url("./static/image.webp");
+    background-repeat:no-repeat;
+    background-size:1550px 800px;
+}
+.c1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color:red;
+    position:absolute;
+    left:25%;
+}
+.c2
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color:white;
+    position:absolute;
+    left:30%;
+    top:10%;
+
+}
+.box
+{
+  width:27%;
+  background-color:rgba(163, 162, 173, 0.362);
+  height:50%;
+  position:absolute;
+  left:27%;
+  top:20%;
+  padding:20px;
+}
+b{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    color:rgb(2, 1, 3);
+    padding:10px 0px 10px 10px;
+}
+.form-control
+{
+    height:45px;
+    width:30%;
+    border:none;
+    outline:none;
+    border-radius:30px;
+    font-size:large;
+    color:black;
+    padding:0 0 0 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:rgba(255,255,255,0.8)
+}
+.butn_success
+{
+    height:45px;
+    width:75px;
+    color:#0a2484;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    border:none;
+    border-radius:30px;
+    outline:none;
+    background:rgb(255, 255, 255);
+    cursor:pointer;
+    transition:.3s;
+}
+.butn_success:hover
+{   
+     color:red ;
+}
+h2
+{
+    position:absolute;
+    bottom:13%;
+    left:15%;
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+}
