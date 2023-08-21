@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>STARTUP SUCCESS PREICTION</title>
+</head>
+<body>
+<nav class="navbar navbar-light bg-dark">
+<span class="navbar-text">
+<h1 align='center'>STARTUP SUCCESS PREDICTION</h1>
+</span>
+</nav>
+<form action="/predict" method="POST">
+<div class="form-group" align="center">
+<br><b>relationships:</b><br><br>
+<input name="relationships" type="number" class="form-control" required <br>
+<br><b> funding_rounds:</b><br><br>
+<input name="funding_rounds" type="number" class="form-control"
+required><br>
+<br><b>funding_total_usd</b><br><br>
+<input name="funding_total_usd" type="number" class="form-control"
+required><br>
+<br><b>milestones</b><br><br>
+<input name="milestones" type="number" class="form-control" required>
+<br><b>avg_participants</b><br><br>
+<input name="avg_participants" type="number" class="form-control"
+required>
+<br><br>
+<button class="butn butn_success">predict</button><br>
+</div>
+</form>
+<br>
+<div class="result" align="center">
+{%if prediction:%}
+   <h2 class="text-warning"><br>
+   relationships:{{relationships}}<br>
+   funding_rounds:{{funding_rounds}}<br>
+   funding_total_usd:{{funding_total_usd}}<br>
+   milestones:{{milestones}}<br>
+   avg_participants:{{avg_participants}}<br>
+   STATUS:{{prediction}}
+  </h2>
+{% endif %}
+</div>
+</body>
+</html>
